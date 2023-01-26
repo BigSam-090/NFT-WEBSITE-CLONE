@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: orangered;
+    box-shadow: 1px, 1px, 1px, 1px;
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    padding: 18px;
+    margin-left: 300px;
+}
+.navigation{
+    width: 80%;
+    position: relative;
+}
+.navigation li{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 28px;
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: arial;
+}
+.navigation li a:hover{
+    color: white;
+    cursor: pointer;
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    margin-top: 6%;
+    align-content: center;
+    align-items: center;
+    margin-left:15%;
+
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.text{
+    text-align: center;
+    padding: 50px;
+}
+.text h2{
+    font-size: 60px;
+    font-family: arial;
+    color: black;
+    padding: 20px;
+}
+.text h6{
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(39, 38, 38);
+    padding: 30px;
+}
+.text p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(39, 39, 39);
+    padding: 60px;
+}
+.second{
+    width: 70%;
+    height: 80vh;
+    margin-top: 2%;
+    margin-left: 15%;
+    background-image: url(nft\ e1.jpg);
+    background-size: cover;
+
+}
+.second img{
+    width: 100%;
+    height: 100%;
+
+}
+.btn{
+    width: 60%;
+    height: 10vh;
+    background-color: orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 20%;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 5px;
+    margin-top: 7%;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.text-1{
+    text-align: center;
+    padding: 30px;
+}
+.text-1 h2{
+    font-size: 60px;
+    font-family: arial;
+    color: black;
+    padding: 20px;
+}
+.text-1 p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(39, 39, 39);
+    padding: 30px;
+}
+.third{
+    width: 70%;
+    height: 80vh;
+    margin-top: 2%;
+    margin-left: 15%;
+    background-image: url(nftr1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    border: solid;
+    border-color: orangered;
+}
+.third img{
+    width: 100%;
+    height: 100%;
+
+}
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 50vh;
+    background: rgb(236, 231, 231);
+    align-items: center;
+}
+.footer-logo{
+    margin-left: 45%;
+    width: 70px;
+    height: 70px;
+    padding: 30px;
+    margin-top: 70px;
+}
+.footer h5{
+    margin-left: 40%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+.copy{
+    width: 100%;
+    height: auto;
+    background-color: orangered;
+}
+.copy p{
+    font-family: arial;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+@media (max-width: 991px ) {
+    .header{
+        width: 100%;
+        height: 10vh;
+        background-color: orangered;
+
+    }
+    .logo{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 768px ) {
+    .header{
+        width: 100%;
+        height: 10vh;
+        background-color: orangered;
+    }
+    .header ul li a {
+        width: 70%;
+    }
+    .header ul li{
+        margin-left: 20px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .container{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        padding: 10px;
+    }
+    .text h2{
+        padding: 5px;
+        font-size: 30px;
+    }
+    .text p{
+        padding: 20px;
+    }
+    .second{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .second img{
+        width: 100%;
+        height: 100%;
+    }
+    .text-1{
+        padding: 20px;
+    }
+    .text-1 h2{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .third{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .third img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        margin-top: 30px;
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-left: 42%;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .footer h5{
+        font-size: 17px;
+        margin: 10px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px ) {
+    .header{
+        width: 100%;
+        height: 10vh;
+        background-color: orangered;
+
+    }
+    .header ul li a {
+        width: 60%;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .container{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        padding: 10px;
+    }
+    .text h2{
+        padding: 5px;
+        font-size: 30px;
+    }
+    .text p{
+        padding: 20px;
+    }
+    .second{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .second img{
+        width: 100%;
+        height: 100%;
+    }
+    .text-1{
+        padding: 20px;
+    }
+    .text-1 h2{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .third{
+        width: 90%;
+        height: 60vh;
+        margin: 6%;
+    }
+    .third img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        margin-top: 30px;
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-left: 37%;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .footer h5{
+        font-size: 17px;
+        margin: 10px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px ) {
+    .header{
+        width: 100%;
+        height: 10vh;
+    }
+    .header ul li a{
+        width: 60%;
+    } 
+
+    .header .navigation{
+        display: none;
+    }
+    .header .navigation li a {
+        margin: 10px 0;
+        padding: 5px;
+        font-size: 1em;
+        font-weight: 300;
+       }
+    .header .navigation.active{
+            position: fixed;
+            top:0;
+            left:0;
+            width:100%;
+            height: 100%;
+            background: orangered;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 10;
+       }
+
+    .logo{
+        margin-left: 30px;
+    }
+    .container{
+        width: 90%;
+        height: 40vh;
+        margin: 6%;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        padding: 10px;
+    }
+    .text h2{
+        padding: 5px;
+        font-size: 30px;
+    }
+    .text p{
+        padding: 20px;
+    }
+    .second{
+        width: 90%;
+        height: 40vh;
+        margin: 6%;
+    }
+    .second img{
+        width: 100%;
+        height: 100%;
+    }
+    .text-1{
+        padding: 20px;
+    }
+    .text-1 h2{
+        font-size: 40px;
+        padding: 10px;
+    }
+    .third{
+        width: 90%;
+        height: 40vh;
+        margin: 6%;
+    }
+    .third img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer{
+        margin-top: 30px;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-left: 28%;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .footer h5{
+        font-size: 17px;
+        margin: 5px;
+        padding: 0;
+        text-align: center;
+    }
+    .btn{
+        width: 60%;
+        height: 10vh;
+        margin-left: 20%;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .copy p{
+        font-size: 10px;
+    }
+    .toggle{
+            position: relative;
+            margin-top: 20px;
+            margin-left: 50%;
+            width: 30px;
+            height: 30px;
+            background: url(menu.png);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            z-index: 1000;
+           }
+    .toggle.active{
+            position: fixed; 
+            right: 40px;
+            background: url(menuclose.png);
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+            cursor: pointer;
+            z-index: 1000;
+        }
+}
